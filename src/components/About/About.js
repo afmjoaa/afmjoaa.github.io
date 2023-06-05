@@ -2,10 +2,14 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import Particle from "../Particle";
 import Github from "./Github";
-import Techstack from "./Techstack";
 import Aboutcard from "./AboutCard";
 import laptopImg from "../../Assets/about.png";
-import Toolstack from "./Toolstack";
+import MlStack from "./MlStack";
+import SdkFrameworkStack from "./SdkFramworkStack";
+import DatabaseStack from "./DatabaseStack";
+import CloudPlatformStack from "./CloudPlatformStack";
+import ProgrammingLangStack from "./ProgrammingLangStack";
+import CommunicationProtocolStack from "./CommunicationProtocolStack";
 
 function About() {
   return (
@@ -34,16 +38,42 @@ function About() {
             <img src={laptopImg} alt="about" className="img-fluid" />
           </Col>
         </Row>
-        <h1 className="project-heading">
-          Professional <strong className="purple">Skillset </strong>
-        </h1>
-
-        <Techstack />
 
         <h1 className="project-heading">
-          <strong className="purple">Tools</strong> I use
+          Machine Learning <strong className="purple">Libraries </strong>
         </h1>
-        <Toolstack />
+
+        <MlStack />
+
+        <h1 className="project-heading">
+          Sdk & <strong className="purple">Frameworks </strong>
+        </h1>
+
+        <SdkFrameworkStack />
+
+        <h1 className="project-heading">
+          Databases <strong className="purple"> </strong>
+        </h1>
+
+        <DatabaseStack />
+
+        <h1 className="project-heading">
+          Cloud <strong className="purple">Platforms </strong>
+        </h1>
+
+        <CloudPlatformStack />
+
+        <h1 className="project-heading">
+          Communication <strong className="purple">Protocols </strong>
+        </h1>
+
+        <CommunicationProtocolStack />
+
+        <h1 className="project-heading">
+          Programming <strong className="purple">Languages </strong>
+        </h1>
+
+        <ProgrammingLangStack />
 
         <Github />
       </Container>
