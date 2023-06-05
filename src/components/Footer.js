@@ -3,7 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import {
   AiFillGithub,
   AiOutlineTwitter,
-  AiFillCode,
+  AiFillCode, AiFillYoutube,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 
@@ -33,16 +33,6 @@ function Footer() {
             </li>
             <li className="social-icons">
               <a
-                href="https://twitter.com/afmjoaa"
-                style={{ color: "white" }}
-                target="_blank" 
-                rel="noopener noreferrer"
-              >
-                <AiOutlineTwitter />
-              </a>
-            </li>
-            <li className="social-icons">
-              <a
                 href="https://www.linkedin.com/in/afmjoaa/"
                 style={{ color: "white" }}
                 target="_blank" 
@@ -53,12 +43,32 @@ function Footer() {
             </li>
             <li className="social-icons">
               <a
+                  href="https://www.youtube.com/@afmjoaa"
+                  style={{ color: "white" }}
+                  target="_blank"
+                  rel="noopener noreferrer"
+              >
+                <AiFillYoutube />
+              </a>
+            </li>
+            <li className="social-icons">
+              <a
                 href="https://leetcode.com/Joaa/"
                 style={{ color: "white" }}
                 target="_blank" 
                 rel="noopener noreferrer"
               >
                 <AiFillCode />
+              </a>
+            </li>
+            <li className="social-icons">
+              <a
+                  href="https://twitter.com/afmjoaa"
+                  style={{ color: "white" }}
+                  target="_blank"
+                  rel="noopener noreferrer"
+              >
+                <AiOutlineTwitter />
               </a>
             </li>
           </ul>

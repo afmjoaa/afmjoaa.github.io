@@ -5,7 +5,7 @@ import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
   AiOutlineTwitter,
-  AiFillCode,
+  AiFillCode, AiFillYoutube,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 
@@ -65,16 +65,6 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://twitter.com/afmjoaa"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour  home-social-icons"
-                >
-                  <AiOutlineTwitter />
-                </a>
-              </li>
-              <li className="social-icons">
-                <a
                   href="https://www.linkedin.com/in/afmjoaa/"
                   target="_blank"
                   rel="noreferrer"
@@ -85,12 +75,32 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
+                    href="https://www.youtube.com/@afmjoaa"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="icon-colour home-social-icons"
+                >
+                  <AiFillYoutube />
+                </a>
+              </li>
+              <li className="social-icons">
+                <a
                   href="https://leetcode.com/Joaa/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour home-social-icons"
                 >
                   <AiFillCode />
+                </a>
+              </li>
+              <li className="social-icons">
+                <a
+                    href="https://twitter.com/afmjoaa"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="icon-colour  home-social-icons"
+                >
+                  <AiOutlineTwitter />
                 </a>
               </li>
             </ul>
