@@ -22,13 +22,13 @@ function Home2() {
               I'm a Self-taught programmer. Great fan of singularity, and do believe that automation is the future.
               Love to learn new tech stacks and trek mountains. Always try to enjoy the small things in life rather than saving up for later.
               <br />
-              <br />Language isn't a barrier for me, but prefer to work will new languages, like:
+              <br />Language isn't a barrier for me, but prefer to work with new languages, like:
               <i>
                 <b className="purple"> Dart, Rust, Go, Kotlin. </b>
               </i>
               <br />
               <br />
-              My field of Interest's are building & designing new &nbsp;
+              My field of Interests are building & designing new &nbsp;
               <i>
                 <b className="purple">System, Application & Framework  </b>
                 in areas related to{" "}
