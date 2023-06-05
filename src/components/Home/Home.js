@@ -4,6 +4,7 @@ import homeLogo from "../../Assets/home-main.svg";
 import Particle from "../Particle";
 import Home2 from "./Home2";
 import Type from "./Type";
+import AvatarCard from "../Intro/intro";
 
 function Home() {
   return (
@@ -14,15 +15,15 @@ function Home() {
           <Row>
             <Col md={7} className="home-header">
               <h1 style={{ paddingBottom: 15 }} className="heading">
-                Hi There!{" "}
+                Hello! {" "}
                 <span className="wave" role="img" aria-labelledby="wave">
                   👋🏻
                 </span>
               </h1>
 
               <h1 className="heading-name">
-                I'M
-                <strong className="main-name"> SOUMYAJIT BEHERA</strong>
+                I am
+                <strong className="main-name"> Mohimenul Joaa</strong>
               </h1>
 
               <div style={{ padding: 50, textAlign: "left" }}>
@@ -37,6 +38,12 @@ function Home() {
                 className="img-fluid"
                 style={{ maxHeight: "450px" }}
               />
+              {/*<AvatarCard
+                  profile={profile}
+                  loading={loading}
+                  avatarRing={!sanitizedConfig.themeConfig.hideAvatarRing}
+                  resume={sanitizedConfig.resume}
+              />*/}
             </Col>
           </Row>
         </Container>
