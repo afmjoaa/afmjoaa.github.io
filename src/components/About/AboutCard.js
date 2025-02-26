@@ -7,17 +7,18 @@ function AboutCard() {
     <Card className="quote-card-view">
       <Card.Body>
         <blockquote className="blockquote mb-0">
-          <p style={{ textAlign: "justify" }}>
-            Hi Everyone, I am <span className="purple">Mohimenul Joaa </span>
-            from <span className="purple"> Dhaka, Bangladesh.</span>
-            <br /> I am a final year student pursuing my Masters of Science
-            in Computer science engineering and Artificial Intelligence at Brac University.
-            <br />
-            Additionally, I am currently employed as a software & solution engineer at
-            bKash Limited.
-            <br />
-            <br />
-            Apart from coding, I love to,
+          <p style={{textAlign: "justify"}}>
+            Hi everyone, I am <span className="purple">Mohimenul Joaa</span> from Dhaka, Bangladesh.
+            <br/><br/> I have completed my MSc in Computer Science and Engineering from BRAC University.
+            My thesis, supervised by Dr. Farig Yousuf Sadeque, explored neuro-symbolic generative models in applied NLP.
+            <br/><br/> Previously, I worked as a Software & Solution Engineer at bKash Limited and as a Research
+            Assistant at BRAC University under Prof. Dr. Swakkhar Shatabda.
+            <br/><br/> Currently, I am pursuing my doctoral research at <span className="purple">Technische Universität Dresden, Germany</span> supervised by Prof. Dr. Michael Färber & Prof. Dr. Wolfgang E. Nagel, supported by the NHR Graduate School Fellowship.
+            My research focuses on developing an HPC interface for active real-time learning using AutoML while
+            preventing concept drift.
+            <br/>
+            <br/>
+            Apart from research and programming, I love to,
           </p>
           <ul>
             <li className="about-activity">

@@ -20,35 +20,43 @@ function Home2() {
             </h1>
             <p className="home-about-body">
               I'm a Self-taught programmer. Great fan of singularity, and do believe that automation is the future.
-              Love to learn new tech stacks and trek mountains. Always try to enjoy the small things in life rather than saving up for later.
-              <br />
-              <br />Language isn't a barrier for me, but prefer to work with new languages, like:
+              Love to learn new tech stacks and trek mountains. Always try to enjoy the small things in life rather than
+              saving up for later.
+              <br/>
+              <br/>Language isn't a barrier for me, but prefer to work with new languages, like:
               <i>
-                <b className="purple"> Dart, Rust, Go, Kotlin. </b>
+                <b className="purple"> Python, Dart, Rust, Go, Kotlin. </b>
               </i>
-              <br />
-              <br />
-              My field of Interests are building & designing new &nbsp;
+              <br/>
+              <br/>
+              My like building & designing new &nbsp;
               <i>
-                <b className="purple">System, Application & Framework  </b>
+                <b className="purple">System, Application & Framework </b>
                 in areas related to{" "}
                 <b className="purple">
-                  Analytics, Large Language Model, NLP & Mobile.
+                  Large Language Model & Applied Natural Language Processing.
                 </b>
               </i>
-              <br />
-              <br />
+              <br/>
+              <br/>
+              My research interests include &nbsp;
+              <i>
+                <b className="purple">neuro-symbolic generative models, knowledge representation, AutoML, large-scale AI, few-shot learning, model compression, and approximate computing.</b>
+                &nbsp;I am also eager to explore quantum computing, particularly its intersection with machine learning for quantum simulation and computation.
+              </i>
+              <br/>
+              <br/>
             </p>
           </Col>
           <Col md={4} className="myAvtar">
             <Tilt>
-              <img src={myImg} className="img-fluid" alt="avatar" />
+              <img src={myImg} className="img-fluid" alt="avatar"/>
             </Tilt>
           </Col>
         </Row>
         <Row>
           <Col md={12} className="home-about-social">
-            <h1>FIND ME ON</h1>
+          <h1>FIND ME ON</h1>
             <p>
               Feel free to <span className="purple">connect </span>with me
             </p>
