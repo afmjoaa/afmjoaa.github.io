@@ -42,7 +42,7 @@ function Home2() {
               My research interests include &nbsp;
               <i>
                 <b className="purple">neuro-symbolic generative models, knowledge representation, AutoML, large-scale AI, few-shot learning, model compression, and approximate computing.</b>
-                &nbsp;I am also eager to explore quantum computing, particularly its intersection with machine learning for quantum simulation and computation.
+                &nbsp;I am also eager to explore quantum computing, particularly its intersection with machine learning for quantum simulation and error correction.
               </i>
               <br/>
               <br/>
